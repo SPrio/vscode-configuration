@@ -1,0 +1,47 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.tabSize": 2,
+    "window.zoomLevel": -1,
+    "latex-workshop.view.pdf.viewer": "browser",
+    "[latex]": {
+        "editor.defaultFormatter": "James-Yu.latex-workshop"
+    },
+    "editor.wordWrap": "on",
+    "python.jediEnabled": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "python.pythonPath": "/home/sprio/miniconda3/bin/python",
+    "python.autoComplete.addBrackets": true,
+    "npm.enableScriptExplorer": true,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "'ubuntu Mono', monospace",
+    "terminal.integrated.enableBell": true,
+    "terminal.integrated.scrollback": 1e+27,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.multiCursorModifier": "alt",
+    "workbench.startupEditor": "welcomePage",
+    "scm.alwaysShowActions": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.colorTheme": "Material Theme Ocean",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh",
+    "dart.flutterSdkPath": "/home/kreetiuser/flutter",
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.rulers": [
+        80, 100
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#400452",
+        "statusBar.noFolderBackground" : "#09c4d1",
+        "statusBar.debuggingBackground": "#a10f0f",
+        "statusBar.foreground": "#e0d2ee",
+        //"tab.inactiveBackground": "#2e063a",
+        //"tab.inactiveForeground": "#5b7976"
+    },
+    "terminal.integrated.rendererType": "dom",
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true
+}
