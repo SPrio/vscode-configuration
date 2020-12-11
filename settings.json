@@ -11,7 +11,7 @@
   "npm.enableScriptExplorer": true,
   "terminal.integrated.fontSize": 13,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font','ubuntu Mono','consolas','fira code', monospace",
+  "terminal.integrated.fontFamily": "'CaskaydiaCove Nerd Font','Operator Mono Lig','ubuntu Mono','consolas','fira code', monospace",
   "terminal.integrated.enableBell": true,
   "terminal.integrated.scrollback": 1e27,
   "workbench.activityBar.visible": true,
@@ -21,7 +21,7 @@
   "scm.alwaysShowActions": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "terminal.integrated.shell.linux": "/bin/zsh",
-  "dart.flutterSdkPath": "/home/kreetiuser/flutter",
+  "dart.flutterSdkPath": "/home/supriyo/snap/flutter/common/flutter",
   "editor.rulers": [80, 98, 120],
   "terminal.integrated.rendererType": "dom",
   "editor.fontLigatures": true,
@@ -82,11 +82,13 @@
 
   // settings for material gecko
 
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 22,
   "editor.letterSpacing": 0.5,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
   "editor.fontWeight": "400",
+
+  "bracket-pair-colorizer-2.colors": ["#D39E17", "#A15DEF", "#3398DB"],
 
   /////////////////////////////////////////////////////////////////////////////////
   // "editor.cursorStyle": "line",
@@ -108,7 +110,7 @@
     // "tab.activeForeground": "#ffffff",
     //"tab.inactiveForeground": "#5b7976"
     "editorLineNumber.foreground": "#978d8d",
-    "editor.foldBackground": "#355000"
+    "editor.foldBackground": "#6f971f"
   },
   "editor.largeFileOptimizations": false,
   // "terminal.integrated.inheritEnv": false,
@@ -120,7 +122,7 @@
     "editor.tabSize": 4
   },
   "editor.fontSize": 14,
-  "editor.fontFamily": "'CaskaydiaCove Nerd Font','FiraFlott','fira code','Rec mono Duotone','Code New Roman','Operator Mono SSm Lig Medium','Dank Mono','CamingoCode','iA Writer mono S','source code pro','Victor Mono','Lekton','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontFamily": "'Cascadia Code','Operator Mono Lig','Victor Mono','Lekton','Dank Mono','Code New Roman','source code pro','Fira Code','FiraFlott','CaskaydiaCove Nerd Font','Operator Mono Medium','Fira Code','Cascadia Code','CamingoCode','Operator Mono SSm Lig','iA Writer mono S','Operator Mono Medium','Consolas','Rec mono Duotone','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "code-runner.runInTerminal": true,
@@ -152,7 +154,6 @@
   "java.requirements.JDK11Warning": false,
   "editor.renameOnType": true,
   "workbench.iconTheme": "material-icon-theme",
-  "window.titleBarStyle": "custom",
   "editor.mouseWheelZoom": true,
   "debug.console.fontFamily": "'operator mono lig'",
   "git.allowForcePush": true,
@@ -167,9 +168,90 @@
   // "terminal.integrated.inheritEnv": false
   "python.dataScience.textOutputLimit": 0,
   "python.defaultInterpreterPath": "/home/supriyo/anaconda3/bin/python",
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
   "kite.showWelcomeNotificationOnStartup": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "liveshare.allowInvites": "all",
+  "yaml.schemas": {
+    "file:///home/supriyo/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.enabled": true,
+  "atlascode.bitbucket.enabled": false,
+  "atlascode.jira.jqlList": [
+    {
+      "id": "f9c554ae-41bc-4191-b204-204843aae125",
+      "enabled": true,
+      "name": "My kargox Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "50325616-0d50-41c1-814b-d3e079bff01b",
+      "monitor": true
+    }
+  ],
+  "window.menuBarVisibility": "visible",
+  "scm.alwaysShowRepositories": true,
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     {
+  //       "name": "One Dark italic",
+  //       "scope": [
+  //         "comment",
+  //         "entity.other.attribute-name",
+  //         "keyword",
+  //         "markup.underline.link",
+  //         "storage.modifier",
+  //         "storage.type",
+  //         "string.url",
+  //         "variable.language.super",
+  //         "variable.language.this"
+  //       ],
+  //       "settings": {
+  //         "fontStyle": "italic"
+  //       }
+  //     },
+  //     {
+  //       "name": "One Dark italic reset",
+  //       "scope": [
+  //         "keyword.operator",
+  //         "keyword.other.type",
+  //         "storage.modifier.import",
+  //         "storage.modifier.package",
+  //         "storage.type.built-in",
+  //         "storage.type.function.arrow",
+  //         "storage.type.generic",
+  //         "storage.type.java",
+  //         "storage.type.primitive"
+  //       ],
+  //       "settings": {
+  //         "fontStyle": ""
+  //       }
+  //     }
+  //   ]
+  // },
+  "window.titleBarStyle": "custom",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "zeplin.preferredApplicationType": "App",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.sideBar.location": "left",
+  "eslint.workingDirectories": [
+    "assets"
+     ],
+  "dart.previewFlutterUiGuides": true,
+  "workbench.colorTheme": "One Dark",
 }
